@@ -74,21 +74,19 @@ export default function About() {
     <>
       <h1>Hello About</h1>
       <h1>SKILLS</h1>
-      {/* test */}
-      {/* test */}
+
       <br />
       <br />
-      <h1>testing 123</h1>
       <h4>Frontend Development</h4>
       <section className="flex-container">
         <div className="skill">
           <img
             className="skills"
-            src={require('../images/js.png')}
-            alt="JavaScript"
+            src={require('../images/node.png')}
+            alt="Node"
           />
           <strong>
-            <div>JavaScript</div>
+            <div>Node.JS</div>
           </strong>
         </div>
         <div className="skill">
@@ -99,6 +97,16 @@ export default function About() {
           />
           <strong>
             <div>ReactJS</div>
+          </strong>
+        </div>
+        <div className="skill">
+          <img
+            className="skills"
+            src={require('../images/js.png')}
+            alt="JavaScript"
+          />
+          <strong>
+            <div>JavaScript</div>
           </strong>
         </div>
         <div className="skill">
@@ -131,7 +139,34 @@ export default function About() {
             <div>Bootstrap</div>
           </strong>
         </div>
-      </section>
+      </section>{/* End of Frontend */} 
+      <br/><br/>
+      
+      <h4>Backend Development</h4>
+      <section className="flex-container">
+        <div className="skill">
+          <img
+            className="skills"
+            src={require('../images/node.png')}
+            alt="Node"
+          />
+          <strong>
+            <div>Node.JS</div>
+          </strong>
+        </div>
+        <div className="skill">
+          <img
+            className="skills"
+            src={require('../images/mongo.png')}
+            alt="Mongo"
+          />
+          <strong>
+            <div>MongoDB</div>
+          </strong>
+        </div>
+
+      </section>{/* end of Backend */}
+      
       <br />
       <br />
       <h4>Creative Media</h4>
