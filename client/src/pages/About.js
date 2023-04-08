@@ -6,12 +6,12 @@ const { feArr, beArr, cmArr } = data;
 export default function About() {
   let fe = feArr.map((x) => {
     return (
-      <div className="skillIcon d-flex flex-column text-center col-5 col-sm-3 col-md-3 ">
+      <div className="skillIcon d-flex flex-column text-center col-5 col-sm-3 col-md-3 shadow">
         <div className="skillImg">
           <img className="skills" src={`${x.img}`} alt={x.name} />
         </div>
 
-        <div className='iconText'>
+        <div className="iconText">
           <strong>{x.name}</strong>
         </div>
       </div>
@@ -21,12 +21,12 @@ export default function About() {
 
   let be = beArr.map((x) => {
     return (
-      <div className="skillIcon d-flex flex-column text-center col-5 col-sm-3 col-md-3 ">
+      <div className="skillIcon d-flex flex-column text-center col-5 col-sm-3 col-md-3 shadow">
         <div className="skillImg">
           <img className="skills" src={`${x.img}`} alt={x.name} />
         </div>
 
-        <div className='iconText'>
+        <div className="iconText">
           <strong>{x.name}</strong>
         </div>
       </div>
@@ -36,12 +36,12 @@ export default function About() {
 
   let cm = cmArr.map((x) => {
     return (
-      <div className="skillIcon d-flex flex-column text-center col-5 col-sm-3 col-md-3 ">
+      <div className="skillIcon d-flex flex-column text-center col-5 col-sm-3 col-md-3 shadow">
         <div className="skillImg">
           <img className="skills" src={`${x.img}`} alt={x.name} />
         </div>
 
-        <div className='iconText'>
+        <div className="iconText">
           <strong>{x.name}</strong>
         </div>
       </div>
@@ -56,9 +56,10 @@ export default function About() {
       <br />
       <br />
       <strong>
-        <h1>Frontend Development</h1>
+        <h1 className="bg-primary text-white">Frontend Development</h1>
       </strong>
 
+      <br />
       <section className="flex-container container-fluid">{fe}</section>
 
       <br />
@@ -66,7 +67,8 @@ export default function About() {
       <br />
       <br />
 
-      <h1>Backend Development</h1>
+      <h1 className="bg-primary text-white">Backend Development</h1>
+      <br />
       <section className="flex-container container-fluid">{be}</section>
       {/* end of Backend */}
 
@@ -74,7 +76,8 @@ export default function About() {
       <br />
       <br />
       <br />
-      <h1>Creative Media</h1>
+      <h1 className="bg-primary text-white">Creative Media</h1>
+      <br />
       <section className="flex-container container-fluid">{cm}</section>
       <br />
       <br />
