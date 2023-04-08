@@ -75,6 +75,7 @@ export default function About() {
       <h1>Hello About</h1>
       <h1>SKILLS</h1>
       {/* test */}
+      {/* test */}
       <br />
       <br />
       <h1>testing 123</h1>
