@@ -3,6 +3,15 @@ import data from '../data.js';
 
 const { feArr, beArr, cmArr } = data;
 
+
+
+
+
+// FLIP ICONS AND DISPLAY DETAILS ON THE BACK
+
+
+
+
 export default function About() {
   let fe = feArr.map((x) => {
     return (
