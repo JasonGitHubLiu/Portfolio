@@ -52,7 +52,12 @@ export default function About() {
   // end of cmArr
   return (
     <>
-      {/* <h1>Hello About</h1> */}
+      <br />
+      <h1> About</h1>
+      <br />
+      <br />
+      <br />
+      <br />
       <h1>SKILLS</h1>
 
       <br />

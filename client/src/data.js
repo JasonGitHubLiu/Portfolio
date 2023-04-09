@@ -34,7 +34,6 @@ let beArr = [
     name: 'MongoDB',
     img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1680934860/Portfolio/icons8-mongodb-480_hemc3l.png',
   },
-  ,
 ];
 
 let cmArr = [
@@ -54,7 +53,6 @@ let cmArr = [
     name: 'PremierPro',
     img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1680937764/Portfolio/icons8-adobe-premiere-pro-480_qoxgmz.png',
   },
-  ,
 ];
 
 let projArr = [
@@ -72,4 +70,4 @@ let projArr = [
   },
 ];
 
-export default { beArr, feArr, cmArr, projArr };
+export default { beArr, feArr, cmArr, projArr};
