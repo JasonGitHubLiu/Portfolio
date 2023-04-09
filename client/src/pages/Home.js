@@ -9,57 +9,31 @@ export default function Home() {
       </h3>
       <br />
       <br />
-      {/* <button className="btn">
-        <Link to="https://www.linkedin.com/in/jasonliu-/">
-          <img
-            src={
-              'https://res.cloudinary.com/ddl0mgnds/image/upload/v1681009128/Portfolio/icons8-linkedin-48_b6becc.png'
-            }
-          ></img>
+      <div className="btn-group" role="group">
+        <Link to="https://www.linkedin.com/in/jasonliu-/" target="_blank">
+          <button type="button" className="btn btn-secondary" style={{ width: '150px', marginRight: '10px' }}>
+            <img
+              src={
+                'https://res.cloudinary.com/ddl0mgnds/image/upload/v1681009128/Portfolio/icons8-linkedin-48_b6becc.png'
+              }
+              alt="LinkedIn"
+            ></img>
+            LinkedIn
+          </button>
         </Link>
-        LinkedIn
-      </button>
-
-      <button className="btn">
-        <Link to="https://github.com/JasonGitHubLiu">
-          <img
-            src={
-              'https://res.cloudinary.com/ddl0mgnds/image/upload/v1681008367/Portfolio/icons8-github-48_mh4i7k.png'
-            }
-          ></img>
+        <Link to="https://github.com/JasonGitHubLiu" target="_blank">
+          <button type="button" className="btn btn-secondary" style={{ width: '150px', marginLeft: '10px' }}>
+            <img
+              src={
+                'https://res.cloudinary.com/ddl0mgnds/image/upload/v1681008367/Portfolio/icons8-github-48_mh4i7k.png'
+              }
+              alt="GitHub"
+            ></img>
+            GitHub
+          </button>
         </Link>
-        Github
-      </button> */}
-
-<Link to="https://www.linkedin.com/in/jasonliu-/">
-      <button
-        type="button"
-        class="btn btn-secondary "
-      >
-        <img
-          src={
-            'https://res.cloudinary.com/ddl0mgnds/image/upload/v1681009128/Portfolio/icons8-linkedin-48_b6becc.png'
-          }
-        ></img>
-
-        LinkedIn
-      </button>
-        </Link>
-      <br />
-      <br />
-      <Link to="https://github.com/JasonGitHubLiu">
-      <button
-        type="button"
-        class="btn btn-secondary"
-      >
-          <img
-            src={
-              'https://res.cloudinary.com/ddl0mgnds/image/upload/v1681008367/Portfolio/icons8-github-48_mh4i7k.png'
-            }
-          ></img>
-        Github
-      </button>
-        </Link>
+      </div>
     </>
   );
 }
+

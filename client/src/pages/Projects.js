@@ -26,7 +26,7 @@ export default function Projects() {
         <br></br>
         <h4>Mod 3 Project: The Full Stack MERN App</h4>
         <div className="projImg shadow">
-          <Link to="https://myworkoutlog-frontend.onrender.com/">
+          <Link to="https://myworkoutlog-frontend.onrender.com/" target="_blank">
             <img src={require('../images/workOutHome.JPG')}></img>
             <h1>Workout Journal/Log</h1>
           </Link>
@@ -38,7 +38,7 @@ export default function Projects() {
         <br />
         <h4>Mod 2 Project: My First React Application</h4>
         <div className="projImg shadow">
-          <Link to="https://rick-and-morty-api1.netlify.app/">
+          <Link to="https://rick-and-morty-api1.netlify.app/" target="_blank">
             <img src={require('../images/rmpic.JPG')}></img>
             <h1>Rick and Morty API</h1>
           </Link>
@@ -46,7 +46,7 @@ export default function Projects() {
         <br />
         <h4>Mod 1 Project: Game On!</h4>
         <div className="projImg shadow">
-          <Link to="https://jasongithubliu.github.io/TicTacToeGame/">
+          <Link to="https://jasongithubliu.github.io/TicTacToeGame/" target="_blank">
             <img src={require('../images/tictactoe.JPG')}></img>
             <h1>Tic Tac Toe</h1>
           </Link>
