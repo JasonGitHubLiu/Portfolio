@@ -31,7 +31,7 @@ let beArr = [
     img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1680934860/Portfolio/icons8-nodejs-480_say6wq.png',
   },
   {
-    name: 'Mongo',
+    name: 'MongoDB',
     img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1680934860/Portfolio/icons8-mongodb-480_hemc3l.png',
   },
   ,

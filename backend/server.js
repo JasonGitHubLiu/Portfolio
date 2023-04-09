@@ -8,13 +8,13 @@ const app = express()
 const PORT = 8080
 
 // Add Routes
-const exampleRoutes = require('./routes/exampleRoutes')
+// const exampleRoutes = require('./routes/exampleRoutes')
 
 app.use(express.json())
 app.use(cors())
 
 // Use Routes
-app.use('/example', exampleRoutes)
+// app.use('/example', exampleRoutes)
 
 // Listen to the given port
 app.listen(PORT, () => {
