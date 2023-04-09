@@ -47,25 +47,25 @@ export default function Home() {
           </button>
         </Link>
       </div>
-        <button
-          type="button"
-          className="btn btn-secondary"
-          style={{ width: '150px', marginLeft: '10px' }}
-          onClick={() =>
-            window.open(
-              'https://drive.google.com/file/d/1sWi2yz1CBy1Sl0V216A3PV9hC5_WWHiC/view?usp=sharing',
-              '_blank'
-            )
+      <button
+        type="button"
+        className="btn btn-secondary"
+        style={{ width: '150px', marginLeft: '10px' }}
+        onClick={() =>
+          window.open(
+            'https://drive.google.com/file/d/1sWi2yz1CBy1Sl0V216A3PV9hC5_WWHiC/view?usp=sharing',
+            '_blank'
+          )
+        }
+      >
+        <img
+          src={
+            'https://res.cloudinary.com/ddl0mgnds/image/upload/v1681033283/Portfolio/icons8-resume-48_vcjlyl.png'
           }
-        >
-          <img
-            src={
-              'https://res.cloudinary.com/ddl0mgnds/image/upload/v1681033283/Portfolio/icons8-resume-48_vcjlyl.png'
-            }
-            alt="Resume"
-          ></img>
-          Resume
-        </button>
+          alt="Resume"
+        ></img>
+        Resume
+      </button>
     </>
   );
 }
