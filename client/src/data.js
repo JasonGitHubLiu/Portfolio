@@ -57,4 +57,19 @@ let cmArr = [
   ,
 ];
 
-export default { beArr, feArr, cmArr };
+let projArr = [
+  {
+    name: 'Workout Log',
+    img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1681004139/Portfolio/workOutHome_hqbhxs.jpg',
+  },
+  {
+    name: 'Rick and Morty',
+    img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1681004139/Portfolio/rmpic_jvjxfv.jpg',
+  },
+  {
+    name: 'TicTacToe',
+    img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1681004186/Portfolio/tictactoe_anjsaf.jpg',
+  },
+];
+
+export default { beArr, feArr, cmArr, projArr };
