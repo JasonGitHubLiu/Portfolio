@@ -62,6 +62,10 @@ let cmArr = [
     img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1680937764/Portfolio/icons8-adobe-premiere-pro-480_qoxgmz.png',
   },
   {
+    name: 'iMovie',
+    img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1682237682/iMovie_d7ga3x.png',
+  },
+  {
     name: 'Canva',
     img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1682229131/canva_pwkb9x.png',
   },
