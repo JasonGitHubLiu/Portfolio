@@ -55,7 +55,7 @@ export default function Skills() {
       <br />
       <br />
 
-      <h1>SKILLS</h1>
+      <h1>Skills</h1>
 
       <br />
       <br />

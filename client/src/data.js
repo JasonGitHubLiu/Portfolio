@@ -1,15 +1,15 @@
 let feArr = [
   {
-    name: 'Node.JS',
-    img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1680934860/Portfolio/icons8-nodejs-480_say6wq.png',
-  },
-  {
     name: 'ReactJS',
     img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1680934860/Portfolio/icons8-react-native-480_znsjak.png',
   },
   {
     name: 'JavaScript',
     img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1680934860/Portfolio/icons8-javascript-480_djtewi.png',
+  },
+  {
+    name: 'Node.JS',
+    img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1680934860/Portfolio/icons8-nodejs-480_say6wq.png',
   },
   {
     name: 'HTML',
