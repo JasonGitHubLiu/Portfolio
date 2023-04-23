@@ -23,13 +23,13 @@ export default function About() {
       <h1> About</h1>
       <br></br>
       <div className='aboutDiv'>
-      <h3>I am from Boston, Massachusetts, and my name is Jason Liu.</h3>
+      <h3>My name is Jason Liu, and I'm from Boston, Massachusetts.</h3>
       <br></br>
-      <h3>My academic pursuits at UMass Boston focused on Entrepreneurship and Marketing, which led to my acquiring my Bachelor's in Management.</h3>
+      <h3>I pursued my undergraduate studies at UMass Boston, focusing on Entrepreneurship and Marketing, and earned my Bachelor's degree in Management. </h3>
       <br></br>
-      <h3>After graduation, I decided to shift gears toward the technology industry and, thus, enrolled in the Software Engineering Bootcamp provided by Per Scholas, which I completed.</h3>
+      <h3>Following graduation, I shifted my focus to the technology industry and enrolled in the Software Engineering Bootcamp provided by Per Scholas, which I successfully completed.</h3>
       <br></br>
-      <h3>I am a full-stack MERN developer.</h3>
+      <h3>I am a MERN Full-Stack Developer.</h3>
       </div>
       <br></br>
       <section className="flex-container container-fluid">{ab}</section>
