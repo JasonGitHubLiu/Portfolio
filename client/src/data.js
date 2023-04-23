@@ -27,6 +27,14 @@ let feArr = [
 
 let beArr = [
   {
+    name: 'Express.JS',
+    img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1682226613/express.js_jmxxkc_fnzisv.png',
+  },
+  {
+    name: 'JSON Web Token',
+    img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1682226758/jwt_jfbusy_gbounh.png',
+  },
+  {
     name: 'Node.JS',
     img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1680934860/Portfolio/icons8-nodejs-480_say6wq.png',
   },
@@ -53,6 +61,10 @@ let cmArr = [
     name: 'PremierPro',
     img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1680937764/Portfolio/icons8-adobe-premiere-pro-480_qoxgmz.png',
   },
+  {
+    name: 'Canva',
+    img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1682229131/canva_pwkb9x.png',
+  },
 ];
 
 let projArr = [
@@ -70,4 +82,4 @@ let projArr = [
   },
 ];
 
-export default { beArr, feArr, cmArr, projArr};
+export default { beArr, feArr, cmArr, projArr };
