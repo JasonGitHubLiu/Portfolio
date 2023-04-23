@@ -1,7 +1,22 @@
 import React from 'react';
+import data from '../data.js';
+
+const { abArr } = data;
 
 export default function About() {
-
+    let ab = abArr.map((x) => {
+        return (
+          <div className="skillIcon d-flex flex-column text-center col-5 col-sm-3 col-md-3 shadow">
+            <div className="skillImg">
+              <img className="skills" src={`${x.img}`} alt={x.name} />
+            </div>
+    
+            <div className="iconText">
+              <strong>{x.name}</strong>
+            </div>
+          </div>
+        );
+      });
   return (
     <>
       <br />
@@ -16,6 +31,8 @@ export default function About() {
       <br></br>
       <h3>I am a full stack MERN developer</h3>
       </div>
+      <br></br>
+      <section className="flex-container container-fluid">{ab}</section>
       <br />
       <br />
 

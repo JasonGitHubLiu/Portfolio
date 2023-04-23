@@ -82,4 +82,24 @@ let projArr = [
   },
 ];
 
-export default { beArr, feArr, cmArr, projArr };
+let abArr = [
+  {
+    // name: 'Entrepreneurship',
+    img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1682232849/entrepreneurship_cabbmz.png',
+  },
+  // { name: '+', img: '+' },
+  {
+    // name: 'Marketing',
+    img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1682232849/marketing_gp7wnb.png',
+  },
+  {
+    // name: 'Software Engineering',
+    img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1682232849/softwareEngineering_yfvmy3.png',
+  },
+  // {
+  //   name: 'Jason',
+  //   img: 'https://res.cloudinary.com/ddl0mgnds/image/upload/v1682232849/EntrMarkSoftEng_yrp9et.png',
+  // },
+];
+
+export default { beArr, feArr, cmArr, projArr, abArr };
