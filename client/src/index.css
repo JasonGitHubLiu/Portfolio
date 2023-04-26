@@ -38,6 +38,7 @@ code {
 .skillImg {
   height: fit-content;
   width: 15vw;
+  padding-top: 5px;
 }
 
 img {
@@ -49,6 +50,9 @@ img {
   /* border: 4px solid blue; */
   font-size: 2vw;
   width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .aboutDiv {
@@ -110,5 +114,5 @@ a {
 
   --background-color: lightgrey;
   --border-size: 3px;
-  --accent-color: blue;
+  --accent-color: #0d6efd;
 }
