@@ -42,7 +42,7 @@ code {
 }
 
 img {
-  width: 90%;
+  width: 80%;
   height: auto;
 }
 
@@ -61,8 +61,8 @@ img {
   margin: 0 auto;
 }
 
-.projImg {
-  /* border: 4px solid blue; */
+/* border: 4px solid blue; */
+/* .projImg {
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -72,7 +72,7 @@ img {
   background-color: gray;
   font-size: 4vw;
   width: 50%;
-}
+} */
 
 a {
   text-decoration: none;
@@ -93,7 +93,7 @@ a {
   bottom: 0;
   height: var(--border-size);
   background-color: var(--accent-color);
-  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in;
   transform: scaleX(0);
 }
 
@@ -104,7 +104,6 @@ a {
 
 .btn {
   margin: 1rem;
-  /* background-color: var(--background-color); */
   color: black;
   padding: 0.5em 1em;
   border: none;

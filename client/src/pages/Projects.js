@@ -19,13 +19,15 @@ export default function Projects() {
   // });
   return (
     <>
-      <div>
+      <div className='container-fluid'>
         {/* <h1>Hello Projects</h1> */}
         <br></br>
         <h1>Projects:</h1>
         <br></br>
+        <div className='row container-fluid d-flex justify-content-center mx-0'>
+
+        <div className="col-lg-3  projImg shadow mx-3 col-sm-12">
         <h4>Mod 3 Project: The Full Stack MERN App</h4>
-        <div className="projImg shadow">
           <Link to="https://myworkoutlog-frontend.onrender.com/" target="_blank">
             <img src={require('../images/workOutHome.JPG')} alt='Workout Log'></img>
             <h1>Workout Journal/Log</h1>
@@ -36,16 +38,16 @@ export default function Projects() {
           Workout Journal/Log
         </Link> */}
         <br />
+        <div className="col-lg-3 projImg shadow mx-3 col-sm-12">
         <h4>Mod 2 Project: My First React Application</h4>
-        <div className="projImg shadow">
           <Link to="https://rick-and-morty-api1.netlify.app/" target="_blank">
             <img src={require('../images/rmpic.JPG')} alt='Rick and Morty API'></img>
             <h1>Rick and Morty API</h1>
           </Link>
         </div>
         <br />
+        <div className="col-lg-3 projImg shadow mx-3 col-sm-12">
         <h4>Mod 1 Project: Game On!</h4>
-        <div className="projImg shadow">
           <Link to="https://jasongithubliu.github.io/TicTacToeGame/" target="_blank">
             <img src={require('../images/tictactoe.JPG')} alt='Tic Tac Toe'></img>
             <h1>Tic Tac Toe</h1>
@@ -55,6 +57,7 @@ export default function Projects() {
         <br />
         <br />
       </div>
+        </div>
     </>
   );
 }
