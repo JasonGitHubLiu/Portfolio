@@ -8,7 +8,7 @@ const { feArr, beArr, cmArr } = data;
 export default function Skills() {
   let fe = feArr.map((x) => {
     return (
-      <div className="skillIcon d-flex flex-column text-center col-5 col-sm-3 col-md-3 shadow">
+      <div className="skillIcon d-flex flex-column text-center col-5 col-sm-3 col-md-3 shadow col-lg-1">
         <div className="skillImg">
           <img className="skills" src={`${x.img}`} alt={x.name} />
         </div>
@@ -23,7 +23,7 @@ export default function Skills() {
 
   let be = beArr.map((x) => {
     return (
-      <div className="skillIcon d-flex flex-column text-center col-5 col-sm-3 col-md-3 shadow">
+      <div className="skillIcon d-flex flex-column text-center col-5 col-sm-3 col-md-3 shadow col-lg-1">
         <div className="skillImg">
           <img className="skills" src={`${x.img}`} alt={x.name} />
         </div>
@@ -38,7 +38,7 @@ export default function Skills() {
 
   let cm = cmArr.map((x) => {
     return (
-      <div className="skillIcon d-flex flex-column text-center col-5 col-sm-3 col-md-3 shadow">
+      <div className="skillIcon d-flex flex-column text-center col-5 col-sm-3 col-md-3 shadow col-lg-1">
         <div className="skillImg">
           <img className="skills" src={`${x.img}`} alt={x.name} />
         </div>

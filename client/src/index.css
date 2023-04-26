@@ -32,21 +32,22 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: fit-content;
 }
 
 .skillImg {
   height: fit-content;
-  width: 100%;
+  width: 15vw;
 }
 
 img {
-  width: 50%;
+  width: 90%;
   height: auto;
 }
 
 .iconText {
   /* border: 4px solid blue; */
-  font-size: 2.5vw;
+  font-size: 2vw;
   width: 100%;
 }
 
@@ -58,7 +59,6 @@ img {
 
 .projImg {
   /* border: 4px solid blue; */
-  /* width: 40%; */
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -67,7 +67,7 @@ img {
   padding: 30px;
   background-color: gray;
   font-size: 4vw;
-  width: 60%;
+  width: 50%;
 }
 
 a {
@@ -79,4 +79,36 @@ a {
   height: 5px;
   width: 100%;
   /* border: 5px solid red; */
+}
+
+.btn.border-underline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--border-size);
+  background-color: var(--accent-color);
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+}
+
+.btn.border-underline:hover::before,
+.btn.border-underline:focus::before {
+  transform: scaleX(1);
+}
+
+.btn {
+  margin: 1rem;
+  /* background-color: var(--background-color); */
+  color: black;
+  padding: 0.5em 1em;
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+
+  --background-color: lightgrey;
+  --border-size: 3px;
+  --accent-color: blue;
 }

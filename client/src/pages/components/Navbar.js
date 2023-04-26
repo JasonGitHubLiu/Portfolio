@@ -12,16 +12,16 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+          <Link className="btn border-underline nav-link active" aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/skills">Skills</Link>
+          <Link className="btn border-underline nav-link" to="/skills">Skills</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/about">About</Link>
+          <Link className="btn border-underline nav-link" to="/about">About</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/projects">Projects</Link>
+          <Link className="btn border-underline nav-link" to="/projects">Projects</Link>
         </li>
       </ul>
     </div>
