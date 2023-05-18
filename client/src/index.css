@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,16 +13,49 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Heading Styles */
+h2,
+h4 {
+  color: black;
+}
+
+/* Horizontal Rule Styles */
+hr {
+  height: 5px;
+  border: #0d6efd 5px solid;
+}
+
+/* Image Styles */
+img {
+  width: 80%;
+  height: auto;
+}
+
+/* Layout Styles */
 .flex-container {
   display: flex;
   gap: 20px;
   margin: 0 auto;
-  /* border: 5px solid orange; */
-  /* width: 75vw; */
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
+.aboutDiv {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.bg {
+  height: 5px;
+  width: 100%;
+}
+
+/* Skill Styles */
 .skill {
   text-align: center;
   font-size: 3vh;
@@ -42,19 +76,18 @@ code {
   padding-top: 5px;
 }
 
-img {
-  width: 80%;
-  height: auto;
+/* Project Styles */
+.proj {
+  background-color: white;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-
-.proj{
-background-color: white;
-/* color: black; */
+.proj:hover {
+  background-color: #1f6ea9;
+  /* color: green; */
 }
 
 .iconText {
-  /* border: 4px solid blue; */
   font-size: 2vw;
   width: 100%;
   padding-left: 10px;
@@ -63,50 +96,18 @@ background-color: white;
   color: black;
 }
 
-.aboutDiv {
-  /* border: red 1px solid; */
-  width: 75%;
-  margin: 0 auto;
-}
-
-hr {
-  height: 5px;
-  border: #0d6efd 5px solid;
-}
-
+/* Section Styles */
 section:nth-child(even) {
   background: #fff;
   color: #323232;
 }
+
 section:nth-child(odd) {
   background: #000;
   color: #efefef;
 }
 
-/* border: 4px solid blue; */
-/* .projImg {
-  height: auto;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
-  background-color: gray;
-  font-size: 4vw;
-  width: 50%;
-} */
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-.bg {
-  height: 5px;
-  width: 100%;
-  /* border: 5px solid red; */
-}
-
+/* Button Styles */
 .btn.border-underline::before {
   content: '';
   position: absolute;
@@ -138,6 +139,45 @@ a {
   --accent-color: #0d6efd;
 }
 
-h2,h4{
-  color: black;
+/* Project Overlay Styles */
+.project-overlay {
+  position: relative;
+}
+
+.project-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.project-overlay:hover::before {
+  opacity: 1;
+}
+
+.project-overlay:hover .project-overlay-text {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  top: 50%;
+  left: 50%;
+}
+
+.project-overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s, top 0.3s, left 0.3s;
+  pointer-events: none;
 }

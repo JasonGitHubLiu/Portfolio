@@ -89,8 +89,8 @@ export default function Home() {
       <br />
       <br />
       <section>
-      <br />
-      <br />
+        <br />
+        <br />
         <h1 name="skills" id="skills">
           Skills
         </h1>
@@ -171,9 +171,10 @@ export default function Home() {
         </h1>
         <br></br>
         <div className="container-fluid d-flex justify-content-center mx-0 bg-black">
-          <div className="proj col-lg-3  projImg shadow mx-3 col-sm-12 border border-primary rounded p-3">
-            <h4>Mod 3 Project: The Full Stack MERN App</h4>
-            <a href="https://myworkoutlog-frontend.onrender.com/"
+          <div className="proj col-lg-3 projImg shadow mx-3 col-sm-12 border border-primary rounded p-3 project-overlay">
+            <h2>Workout Journal/Log</h2>
+            <a
+              href="https://myworkoutlog-frontend.onrender.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -181,28 +182,38 @@ export default function Home() {
                 src={require('../images/workOutHome.JPG')}
                 alt="Workout Log"
               ></img>
-              <h2>Workout Journal/Log</h2>
+              <h4>Mod 3 Project: The Full Stack MERN App</h4>
+              <div className="project-overlay-text">
+                <h3>The workout journal/log is an application designed to help you track and record your fitness activities.</h3>{' '}
+                {/* Replace with your desired overlay text */}
+              </div>
             </a>
           </div>
           <br />
-          {/* <Link to="https://myworkoutlog-frontend.onrender.com/">
-          Workout Journal/Log
-        </Link> */}
           <br />
-          <div className="proj col-lg-3 projImg shadow mx-3 col-sm-12 border border-primary rounded p-3">
-            <h4>Mod 2 Project: My First React Application</h4>
-            <a href="https://rick-and-morty-api1.netlify.app/" target="_blank" rel="noopener noreferrer">
+          <div className="proj col-lg-3 projImg shadow mx-3 col-sm-12 border border-primary rounded p-3 project-overlay">
+          <h2>Rick and Morty API</h2>
+            <a
+              href="https://rick-and-morty-api1.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src={require('../images/rmpic.JPG')}
                 alt="Rick and Morty API"
               ></img>
-              <h2>Rick and Morty API</h2>
+              <h4>Mod 2 Project: My First React Application</h4>
+              <div className="project-overlay-text">
+                <h3>The Rick and Morty API is a platform that provides access to a collection of information related to the popular TV show</h3>{' '}
+                {/* Replace with your desired overlay text */}
+              </div>
             </a>
           </div>
           <br />
-          <div className="proj col-lg-3 projImg shadow mx-3 col-sm-12 border border-primary rounded p-3">
-            <h4>Mod 1 Project: Game On!</h4>
-            <a href="https://jasongithubliu.github.io/TicTacToeGame/"
+          <div className="proj col-lg-3 projImg shadow mx-3 col-sm-12 border border-primary rounded p-3 project-overlay">
+            <h2>Tic Tac Toe</h2>
+            <a
+              href="https://jasongithubliu.github.io/TicTacToeGame/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -210,7 +221,11 @@ export default function Home() {
                 src={require('../images/tictactoe.JPG')}
                 alt="Tic Tac Toe"
               ></img>
-              <h2>Tic Tac Toe</h2>
+              <h4>Mod 1 Project: Game On!</h4>
+              <div className="project-overlay-text">
+                <h3>Tic Tac Toe for my very first game project</h3>{' '}
+                {/* Replace with your desired overlay text */}
+              </div>
             </a>
           </div>
           <br />
@@ -219,6 +234,7 @@ export default function Home() {
         </div>
         <br></br>
       </section>
+
       {/* </div> */}
       {/* end of projects */}
       <footer>
