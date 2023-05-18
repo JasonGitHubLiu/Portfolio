@@ -173,16 +173,16 @@ export default function Home() {
         <div className="container-fluid d-flex justify-content-center mx-0 bg-black">
           <div className="proj col-lg-3  projImg shadow mx-3 col-sm-12 border border-primary rounded p-3">
             <h4>Mod 3 Project: The Full Stack MERN App</h4>
-            <Link
-              to="https://myworkoutlog-frontend.onrender.com/"
+            <a href="https://myworkoutlog-frontend.onrender.com/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 src={require('../images/workOutHome.JPG')}
                 alt="Workout Log"
               ></img>
               <h2>Workout Journal/Log</h2>
-            </Link>
+            </a>
           </div>
           <br />
           {/* <Link to="https://myworkoutlog-frontend.onrender.com/">
@@ -191,27 +191,27 @@ export default function Home() {
           <br />
           <div className="proj col-lg-3 projImg shadow mx-3 col-sm-12 border border-primary rounded p-3">
             <h4>Mod 2 Project: My First React Application</h4>
-            <Link to="https://rick-and-morty-api1.netlify.app/" target="_blank">
+            <a href="https://rick-and-morty-api1.netlify.app/" target="_blank" rel="noopener noreferrer">
               <img
                 src={require('../images/rmpic.JPG')}
                 alt="Rick and Morty API"
               ></img>
               <h2>Rick and Morty API</h2>
-            </Link>
+            </a>
           </div>
           <br />
           <div className="proj col-lg-3 projImg shadow mx-3 col-sm-12 border border-primary rounded p-3">
             <h4>Mod 1 Project: Game On!</h4>
-            <Link
-              to="https://jasongithubliu.github.io/TicTacToeGame/"
+            <a href="https://jasongithubliu.github.io/TicTacToeGame/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 src={require('../images/tictactoe.JPG')}
                 alt="Tic Tac Toe"
               ></img>
               <h2>Tic Tac Toe</h2>
-            </Link>
+            </a>
           </div>
           <br />
           <br />
