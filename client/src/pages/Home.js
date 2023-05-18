@@ -74,12 +74,28 @@ export default function Home() {
           I'm a full stack web developer with a passion for creating and
           learning new things.
         </h3>
-        {/* <div className='bg'>
-        <img
-          src={require('../images/endless-constellation.png')}
-          alt="bg"
-        ></img>
-      </div> */}
+
+
+{/* start of background w/ css particles */}
+        {/* <div className="container">
+    <img
+      src="https://res.cloudinary.com/ddl0mgnds/image/upload/v1684414621/Portfolio/tech_background_ooss0u.jpg"
+      className="background"
+    />
+    <p className="message">
+      all your dreams can come true<br />if you have the courage to pursue them
+    </p>
+    {Array.from({ length: 100 }).map((_, index) => (
+      <div className="circle-container" key={index}>
+        <div className="circle"></div>
+      </div>
+    ))}
+  </div> */}
+{/* end of background w/ css particles */}
+
+
+
+
         <br />
         <br />
 
@@ -204,7 +220,7 @@ export default function Home() {
               ></img>
               <h4>Mod 2 Project: My First React Application</h4>
               <div className="project-overlay-text">
-                <h3>The Rick and Morty API is a platform that provides access to a collection of information related to the popular TV show</h3>{' '}
+                <h3>The Rick and Morty API is a website full of information related to the popular TV show</h3>{' '}
                 {/* Replace with your desired overlay text */}
               </div>
             </a>
