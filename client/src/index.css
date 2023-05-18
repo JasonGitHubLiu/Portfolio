@@ -211,6 +211,7 @@ body {
   background-image: url('https://res.cloudinary.com/ddl0mgnds/image/upload/v1684426081/Portfolio/night_sky_star_qu4vd4.jpg');
   background-repeat: repeat;
   -webkit-background-clip: text;
+  background-clip: text;
   animation: animate 30s ease-in-out infinite;
   text-align: center;
   text-transform: uppercase;
