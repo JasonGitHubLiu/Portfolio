@@ -66,10 +66,13 @@ export default function Home() {
 
   return (
     <>
-      <br />
-      <br />
-      <section>
-        <h1>Hello! My name is Jason Liu.</h1>
+      <section class="home-section">
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <h1>Hello! My name is </h1>
+    <div class="text-container">
+    <h1>Jason Liu</h1>
+  </div>
+
         <h3>
           I'm a full stack web developer with a passion for creating and
           learning new things.
@@ -91,19 +94,18 @@ export default function Home() {
       </div>
     ))}
   </div> */}
+
 {/* end of background w/ css particles */}
 
 
 
 
-        <br />
-        <br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        
 
         {/* end of home  */}
       </section>
       {/* start of Skills */}
-      <br />
-      <br />
       <section>
         <br />
         <br />
@@ -143,9 +145,9 @@ export default function Home() {
         <br />
       </section>
       {/* end of skills */}
+      <br />
+      <br />
       {/* start of about */}
-      <br />
-      <br />
       <section>
         <br />
         <h1 name="about" id="about">
@@ -177,7 +179,6 @@ export default function Home() {
       </section>
       {/* end of about */}
       {/* start of projects */}
-      {/* <div> */}
       <section>
         {/* <h1>Hello Projects</h1> */}
         <br></br>
@@ -250,8 +251,6 @@ export default function Home() {
         </div>
         <br></br>
       </section>
-
-      {/* </div> */}
       {/* end of projects */}
       <footer>
         {' '}

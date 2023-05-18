@@ -1,12 +1,12 @@
 /* General Styles */
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -84,7 +84,6 @@ img {
 
 .proj:hover {
   background-color: #1f6ea9;
-  /* color: green; */
 }
 
 .iconText {
@@ -97,10 +96,10 @@ img {
 }
 
 /* Section Styles */
-section:nth-child(even) {
+/* section:nth-child(even) {
   background: #fff;
   color: #323232;
-}
+} */
 
 section:nth-child(odd) {
   background: #000;
@@ -180,4 +179,56 @@ section:nth-child(odd) {
   opacity: 0;
   transition: opacity 0.3s, transform 0.3s, top 0.3s, left 0.3s;
   pointer-events: none;
+}
+
+.home-section {
+  background-image: url('https://res.cloudinary.com/ddl0mgnds/image/upload/v1684426601/Portfolio/hexagon_tech_qsyxlz.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Raleway', sans-serif; */
+  /* background-color: #000; */
+}
+
+/* .text-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.text-container h1 {
+  margin: 0;
+  font-size: 10vw;
+  color: rgba(225, 225, 225, 0.01);
+
+  background-image: url('https://res.cloudinary.com/ddl0mgnds/image/upload/v1684426081/Portfolio/night_sky_star_qu4vd4.jpg');
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  animation: animate 30s ease-in-out infinite;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    background-position: left top;
+  }
+  25% {
+    background-position: right bottom;
+  }
+  50% {
+    background-position: left bottom;
+  }
+  75% {
+    background-position: right top;
+  }
 }
