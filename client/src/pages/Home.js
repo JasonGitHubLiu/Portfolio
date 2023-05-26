@@ -97,9 +97,6 @@ export default function Home() {
 
 {/* end of background w/ css particles */}
 
-
-
-
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         
 

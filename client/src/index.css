@@ -182,10 +182,10 @@ section:nth-child(odd) {
 }
 
 .home-section {
-  background-image: url('https://res.cloudinary.com/ddl0mgnds/image/upload/v1684426601/Portfolio/hexagon_tech_qsyxlz.png');
+  background-image: url('https://res.cloudinary.com/ddl0mgnds/image/upload/v1685052442/goku_va5shg.png');
   background-size: cover;
   background-position: center;
-  color: white;
+  color: #ff451e;
 }
 
 body {
